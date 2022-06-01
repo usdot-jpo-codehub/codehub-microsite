@@ -405,7 +405,14 @@ No warranty or guarantee is made by the U.S. DOT as to the accuracy, reliability
 If you choose to not accept, you will be unable to access the data discoverable through ITS CodeHub. Please contact data.itsjpo@dot.gov with any questions or concerns.`
             );
             if (response == true) window.open(address, '_blank');
-        }
+        },
+
+        //Sets search term and sends it to search html page
+        searchSend: function (search_query) {
+            this.query = search_query;
+            sessionStorage.setItem("sentSearchTerm", search_query);
+            window.location.href = "search.htm";
+        },
 
     },
     template: `<div id="searchresults" class="contentArea searchResults">
