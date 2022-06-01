@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="395px" height="415px" viewBox="0 0 395 415" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>DownloadArrow</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="DownloadArrow" transform="translate(30.000000, 30.000000)" fill="#2e72a1" stroke="#2e72a1">
+            <line x1="-8.52651283e-14" y1="355" x2="334.682869" y2="355" id="Path-2-Copy-12" stroke-width="60"></line>
+            <line x1="167" y1="151.5" x2="167" y2="0.5" id="Path-2-Copy-11" stroke-width="60"></line>
+            <path d="M165.671955,241.35816 L88.8482464,169.723409 C88.4443191,169.346764 88.422202,168.713986 88.7988466,168.310059 C88.9872419,168.108017 89.2508235,167.992909 89.5270715,167.992039 L243.174489,167.507996 C243.726771,167.506256 244.175895,167.952558 244.177634,168.50484 C244.178508,168.782111 244.064221,169.047297 243.862068,169.23707 L167.038359,241.355865 C166.654511,241.716206 166.057012,241.717209 165.671955,241.35816 Z" id="Path-2-Copy-10" stroke-width="48"></path>
+        </g>
+    </g>
+</svg>
