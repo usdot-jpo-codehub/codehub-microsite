@@ -260,7 +260,8 @@
             "rolloverIcon": "./images/icons/Other.png",
             "altText": "Search for Other.",
             "repositories": [
-                "OSADP/PortalRepo"
+                "OSADP/PortalRepo",
+                "OSADP/C2C-RI"
             ]
         }
     ]

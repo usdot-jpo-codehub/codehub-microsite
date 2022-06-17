@@ -15,10 +15,10 @@ Vue.component('dot-header',{
 Vue.component('navigation-top', {
     template:`<div class="navigation-bar navBarLinks">
                  <a class="headHovers navBarLinks" href="/">ITS JPO SITE</a> <div style="font-size: 15px; padding:3px 7px 3px 7px; display: inline;">|</div>
-                 <a class="headHovers navBarLinks" href="/test_codehub">HOME</a> <div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
-                 <a class="headHovers navBarLinks" href="/test_codehub/repository-registration.htm">REPOSITORY REGISTRATION</a><div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
-                 <a class="headHovers navBarLinks" href="/test_codehub/faqs.htm">FAQ</a><div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
-                 <a class="headHovers navBarLinks" href="/test_codehub/additional-resources.htm">ADDITIONAL RESOURCES</a>
+                 <a class="headHovers navBarLinks" href="/code">HOME</a> <div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
+                 <a class="headHovers navBarLinks" href="/code/repository-registration.htm">REPOSITORY REGISTRATION</a><div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
+                 <a class="headHovers navBarLinks" href="/code/faqs.htm">FAQ</a><div style="font-size: 15px; padding:3px 5px 7px 7px; display: inline;">|</div>
+                 <a class="headHovers navBarLinks" href="/code/additional-resources.htm">ADDITIONAL RESOURCES</a>
                </div>`
 } )
 
@@ -85,7 +85,7 @@ Vue.component('search-main', {
             query: sessionStorage.getItem("sentSearchTerm"),
             totalDataCount: 0
         }
-    },    
+    },
     // Function runs on page load
     created: function () {
         this.datasetCount(); //Sets the total number of datasets available visual
@@ -153,9 +153,12 @@ Vue.component('search-results', {
         }, 'text');
         this.authUser = secretData["username"];
         this.authTok = secretData["token"];
+        // TODO: DELETE THE FOLLOWING CONSOLE LOGS
+        console.log(this.authUser);
+        console.log(this.authTok);
 
         // boolean that catches when GitHub rate limit has been exceeded
-        this.isGitHubRateLimitExceeded = false; 
+        this.isGitHubRateLimitExceeded = false;
 
         // loads all GitHub repo data and stores it
         this.gitHubRepositories = this.loadGitHubRepositories();
@@ -189,6 +192,7 @@ Vue.component('search-results', {
 
             // get org data
             for (var orgCount = 0; orgCount < orgs.length; orgCount++) {
+
                 // if API request rate is exceeded, stop requesting data
                 if (this.isGitHubRateLimitExceeded) break;
 
@@ -237,23 +241,24 @@ Vue.component('search-results', {
                     "Authorization": "Basic " + btoa(this.authUser + ":" + this.authTok)
                 },
                 success: function (json){
+                    const defaultVal = "N/A"
                     for (var itemCount = 0; itemCount < json.length; itemCount++) {
                         var tempJson = {};
     
                         // populate data
-                        tempJson["name"] = json[itemCount]["name"] != null ? json[itemCount]["name"] : "";;
+                        tempJson["name"] = json[itemCount]["name"] != null ? json[itemCount]["name"] : defaultVal;
                         if(reposAreFiltered && !reposToFilter.includes(tempJson["name"])) continue; // if the current repo is not in the filter, ignore and move on
-                        tempJson["url"] = json[itemCount]["html_url"]                   != null ? json[itemCount]["html_url"] : "";
-                        tempJson["description"] = json[itemCount]["description"]        != null ? json[itemCount]["description"] : "";
-                        tempJson["owner"] = json[itemCount]["owner"]["login"]           != null ? json[itemCount]["owner"]["login"] : "";
+                        tempJson["url"] = json[itemCount]["html_url"]                   != null ? json[itemCount]["html_url"] : defaultVal;
+                        tempJson["description"] = json[itemCount]["description"]        != null ? json[itemCount]["description"] : defaultVal;
+                        tempJson["owner"] = json[itemCount]["owner"]["login"]           != null ? json[itemCount]["owner"]["login"] : defaultVal;
                         tempJson["ownerType"] = ownerType;
-                        tempJson["language"] = json[itemCount]["language"]              != null ? json[itemCount]["language"] : "";
-                        tempJson["updatedAt"] = json[itemCount]["updated_at"]           != null ? json[itemCount]["updated_at"] : "";
-                        tempJson["forksCount"] = json[itemCount]["forks_count"]         != null ? json[itemCount]["forks_count"] : "";
-                        tempJson["watchersCount"] = json[itemCount]["watchers_count"]   != null ? json[itemCount]["watchers_count"] : "";
+                        tempJson["language"] = json[itemCount]["language"]              != null ? json[itemCount]["language"] : defaultVal;
+                        tempJson["updatedAt"] = json[itemCount]["updated_at"]           != null ? json[itemCount]["updated_at"] : defaultVal;
+                        tempJson["forksCount"] = json[itemCount]["forks_count"]         != null ? json[itemCount]["forks_count"] : defaultVal;
+                        tempJson["watchersCount"] = json[itemCount]["watchers_count"]   != null ? json[itemCount]["watchers_count"] : defaultVal;
 
                         // categorize entry
-                        var category = "";
+                        var category = "Other";
                         for (var categoryCount = 0; categoryCount < categoryData.categories.length; categoryCount++) {
                             var cat = categoryData.categories[categoryCount];
                             if (cat["repositories"].includes(`${tempJson["owner"]}/${tempJson["name"]}`)) category = cat["name"];
@@ -304,6 +309,42 @@ Vue.component('search-results', {
 
         // Queries through stored GitHub repository data
         searchRepositories: function (search_query) {
+            
+            // looks for filter keys
+            search_query_split = search_query.split(":");
+            if (search_query_split.length > 1) {
+                var isSearchingByCategory = search_query_split[0].toLowerCase() == "category";
+                var isSearchingByLanguage = search_query_split[0].toLowerCase() == "language";
+                search_query = search_query_split[1];
+            }
+
+            var searchResults = [];
+            self = this;
+            for (repoCount = 0; repoCount < self.gitHubRepositories.length; repoCount++) {
+                var item = self.gitHubRepositories[repoCount];
+
+                if (!(isSearchingByCategory || isSearchingByLanguage)) {
+
+                    // match name
+                    if (item["name"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
+
+                    // match description
+                    else if (item["description"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
+                }
+
+                // match language
+                if (!isSearchingByCategory && !searchResults.includes(item) && item["language"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
+
+                // match category
+                if (!isSearchingByLanguage && !searchResults.includes(item) && item["category"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
+            }
+
+            self.onSearchResults(searchResults);
+            return searchResults;
+        },
+
+        // Queries through stored GitHub repository data, but filters based on category
+        searchRepositoriesByCategory: function (search_query, category) {
             var searchResults = [];
             self = this;
             for (repoCount = 0; repoCount < self.gitHubRepositories.length; repoCount++) {
@@ -340,6 +381,13 @@ Vue.component('search-results', {
             for (var i = 0; i < self.searchResults.length; i = i + 1) {
                 self.seeMoreToggler[i] = true;
             }
+        },
+        
+        //Sets search term and sends it to search html page
+        searchSend: function (search_query) {
+            this.query = search_query;
+            sessionStorage.setItem("sentSearchTerm", search_query);
+            window.location.href = "search.htm";
         },
 
         //===============================================SEARCH HELPER FUNCTIONS===============================================
@@ -412,7 +460,7 @@ If you choose to not accept, you will be unable to access the data discoverable 
             this.query = search_query;
             sessionStorage.setItem("sentSearchTerm", search_query);
             window.location.href = "search.htm";
-        },
+        }
 
     },
     template: `<div id="searchresults" class="contentArea searchResults">
@@ -483,7 +531,7 @@ If you choose to not accept, you will be unable to access the data discoverable 
                                             <p class="tags-tag" style="float:left; height: auto; line-height: 20px;">Language: </p>
                                         </td>
                                         <td>
-                                            <button class='tag' v-on:click="searchSend(item.language)">
+                                            <button class='tag' v-on:click="searchSend('language:' + item.language)">
                                                 {{item.language}}
                                             </button>
                                         </td>
@@ -493,7 +541,7 @@ If you choose to not accept, you will be unable to access the data discoverable 
                                             <p class="tags-tag" style="float:left; height: auto; line-height: 20px;">Category: </p>
                                         </td>
                                         <td>
-                                            <button class='tag' v-on:click="searchSend(item.category)">
+                                            <button class='tag' v-on:click="searchSend('category:' + item.category)">
                                                 {{item.category}}
                                             </button>
                                         </td>
@@ -702,7 +750,7 @@ Vue.component('category-search', {
             <div id="categoryArea" class="contentArea categorylayout">
                 <div id="bulmaDataset" class="columns is-multiline" style="padding: 0 0 5% 0; height: 100%">
                     <div class="bulmaCategories column is-one-quarter" v-for="btn in buttons">
-                        <button v-bind:id="btn.id" class="topic" vertical-align="middle" style="padding-bottom: 10px;" v-on:click="searchSend(btn.labels)">
+                        <button v-bind:id="btn.id" class="topic" vertical-align="middle" style="padding-bottom: 10px;" v-on:click="searchSend('category:' + btn.labels)">
                             <img v-bind:src="btn.imgIcons" v-bind:alt="btn.altText" style="width: 48px; height: 48px; margin-bottom: 20%;" class="RegularThumbnail">
                             <img v-bind:src="btn.rolloverImages" v-bind:alt="btn.altText" class="HoverThumbnail">
                             <p class="categoryText" style="text-transform: uppercase;">{{btn.labels}}</p>
