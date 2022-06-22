@@ -5,29 +5,29 @@
     "maxCategories": 16,
     "featured": [
         {
-            "name": "FTOT-Public",
-            "description": "Public Version of the Freight and Fuel Transportation Optimization Tool",
-            "url": "https://github.com/VolpeUSDOT/FTOT-Public",
-            "language": "Python",
-            "org": "VolpeUSDOT",
-            "category": "Commercial Vehicle Operations",
-            "altText": ""
+            "name": "C2C-RI",
+            "url": "https://github.com/OSADP/C2C-RI",
+            "description": "This repository contains the source code of the Center-To-Center Reference Implementation (C2C RI) Tool. The C2C RI supports efficient deployment of systems using C2C communications by providing a standardized way to verify conformance to C2C standards.",
+            "org": "OSADP",
+            "language": "HTML",
+            "category": "Other",
+            "altText" : ""
         },
         {
-            "name": "SRI",
-            "description": "Smart Roadside Initiative Repository -SRI is a suite of applications used by law enforcement to monitor commercial motor vehicle (CMV) activity coming through the weigh stations.",
-            "url": "https://github.com/OSADP/SRI ",
-            "language": "CSS",
-            "org": "OSADP ",
-            "category": "Commercial Vehicle Operations",
+            "name": "wzdx",
+            "url": "https://github.com/usdot-jpo-ode/wzdx",
+            "description": "The Work Zone Data Exchange (WZDx) Specification aims to make harmonized work zone data provided by infrastructure owners and operators (IOOs) available for third party use, making travel on public roads safer and more efficient through ubiquitous access to data on work zone activity.",
+            "org": "usdot-jpo-ode",
+            "language": "N/A",
+            "category": "Other",
             "altText": ""
         },
         {
             "name": "carma-platform",
-            "description": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication.",
             "url": "https://github.com/usdot-fhwa-stol/carma-platform ",
-            "language": "C++",
+            "description": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication.",
             "org": "usdot-fhwa-stol",
+            "language": "C++",
             "category": "Vehicle Safety",
             "altText": ""
         }

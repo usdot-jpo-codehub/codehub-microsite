@@ -153,9 +153,6 @@ Vue.component('search-results', {
         }, 'text');
         this.authUser = secretData["username"];
         this.authTok = secretData["token"];
-        // TODO: DELETE THE FOLLOWING CONSOLE LOGS
-        console.log(this.authUser);
-        console.log(this.authTok);
 
         // boolean that catches when GitHub rate limit has been exceeded
         this.isGitHubRateLimitExceeded = false;
@@ -326,48 +323,24 @@ Vue.component('search-results', {
                 if (!(isSearchingByCategory || isSearchingByLanguage)) {
 
                     // match name
-                    if (item["name"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
+                    if (item["name"].toLowerCase().search(search_query.toLowerCase()) > -1 && !self.matchHasDuplicate(item, searchResults)) searchResults.push(item);
 
                     // match description
-                    else if (item["description"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
+                    else if (item["description"].toLowerCase().search(search_query.toLowerCase()) > -1 && !self.matchHasDuplicate(item, searchResults)) searchResults.push(item);
                 }
 
                 // match language
-                if (!isSearchingByCategory && !searchResults.includes(item) && item["language"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
+                if (!isSearchingByCategory && !self.matchHasDuplicate(item, searchResults) && item["language"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
 
                 // match category
-                if (!isSearchingByLanguage && !searchResults.includes(item) && item["category"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
+                if (!isSearchingByLanguage && !self.matchHasDuplicate(item, searchResults) && item["category"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
             }
 
             self.onSearchResults(searchResults);
             return searchResults;
         },
 
-        // Queries through stored GitHub repository data, but filters based on category
-        searchRepositoriesByCategory: function (search_query, category) {
-            var searchResults = [];
-            self = this;
-            for (repoCount = 0; repoCount < self.gitHubRepositories.length; repoCount++) {
-                var item = self.gitHubRepositories[repoCount];
-                
-                // match name
-                if (item["name"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
-
-                // match description
-                else if (item["description"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
-
-                // match category
-                else if (item["category"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
-
-                // match language
-                else if (item["language"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
-            }
-
-            self.onSearchResults(searchResults);
-            return searchResults;
-        },
-
-        // Sorts search results by relevance, date, or name
+        // Sorts search results by relevance, date, or name. Also removes duplicates.
         onSearchResults: function (searchResults){
 
             self.relevanceSortedSearchResults = searchResults.slice();
@@ -381,6 +354,18 @@ Vue.component('search-results', {
             for (var i = 0; i < self.searchResults.length; i = i + 1) {
                 self.seeMoreToggler[i] = true;
             }
+        },
+
+        matchHasDuplicate: function (match, searchResults) {
+            matchName = match["name"];
+            matchUrl = match["url"];
+            matchOwner = match["owner"];
+
+            for (var iSearchResult = 0; iSearchResult < searchResults.length; iSearchResult++) {
+                var item = searchResults[iSearchResult];
+                if (item["name"] == matchName && item["url"] == matchUrl && item["owner"] == matchOwner) return true;
+            }
+            return false;
         },
         
         //Sets search term and sends it to search html page
