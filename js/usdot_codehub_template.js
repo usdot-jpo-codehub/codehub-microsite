@@ -154,17 +154,27 @@ Vue.component('search-results', {
         this.authUser = secretData["username"];
         this.authTok = secretData["token"];
 
-        // boolean that catches when GitHub rate limit has been exceeded
-        this.isGitHubRateLimitExceeded = false;
+        //for blank queries return all results
+        if (this.query == '' || this.query == 'null') {
+            this.gitHubRateLimitExceeded = true;
+            this.searchResults = this.loadGitHubRepositories();
+            sessionStorage.setItem("sentSearchTerm","");
+        }
 
-        // loads all GitHub repo data and stores it
-        this.gitHubRepositories = this.loadGitHubRepositories();
+        else {
 
-        // variable to store the GitHub repositories when it's time to update github-data-backup.json
-        this.gitHubRepositoriesStringDebug = JSON.stringify(this.gitHubRepositories);
-        
-        // conducts the search
-        this.searchResults = this.searchRepositories(this.query);
+            // boolean that catches when GitHub rate limit has been exceeded
+            this.isGitHubRateLimitExceeded = false;
+
+            // loads all GitHub repo data and stores it
+            this.gitHubRepositories = this.loadGitHubRepositories();
+
+            // variable to store the GitHub repositories when it's time to update github-data-backup.json
+            this.gitHubRepositoriesStringDebug = JSON.stringify(this.gitHubRepositories);
+            
+            // conducts the search
+            this.searchResults = this.searchRepositories(this.query);
+        }
     },
     methods: {
 
@@ -266,7 +276,7 @@ Vue.component('search-results', {
                     }
                 },
                 error: function() {
-                    console.log("GitHub request rate limit likely exceeded.");
+                    //console.log("GitHub request rate limit likely exceeded.");
                     self.isGitHubRateLimitExceeded = true;
                 }
             });
