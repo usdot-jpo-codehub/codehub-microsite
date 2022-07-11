@@ -821,8 +821,7 @@ Vue.component('registration', {
                                 <h2><span class="accent-color-text">Step 3</span><br><span class="gray-text">Repository
                                         Listing</span></h2>
                                 <p>The repository will be added to the list of ITS JPO repositories made
-                                    discoverable on <a href="code-repositories.html"
-                                        rel="noopener noreferrer">ITS CodeHub&#39;s Code Repositories page</a>.</p>
+                                    discoverable on the ITS CodeHub.</p>
                             </div>
                             <div class="flex-area_column">
                                 <img src="images/ITSJPO_CodeHub_RepositoryRegistration_012820_3.svg"
@@ -863,10 +862,8 @@ Vue.component('faq', {
                             <div class="codehub-content">
                                 <p class="faqs-question">What is ITS CodeHub? </p>
                                 <p class="faqs-answer">ITS CodeHub provides a single point of entry to discover the U.S. Department of Transportation&#39;s (DOT) publicly available open source code funded by the Intelligent Transportation Systems (ITS) Joint Program Office (JPO).</p>
-                                <p class="faqs-question">Where can I find the ITS JPO&#39;s available open source code?</p>
-                                <p class="faqs-answer">You can view a catalog of all source code repositories discoverable through ITS CodeHub by clicking on the <a href="code-repositories.html" rel="noopener noreferrer">Code Repositories</a> link in the left-hand menu. There you will be able to view all available repositories&#39; names, descriptions and URLs to where the code is maintained.</p>
                                 <p class="faqs-question">How can I register my repositories on ITS CodeHub?</p>
-                                <p class="faqs-answer">Check out the detailed registration process on the <a href="repository-registration.html" rel="noopener noreferrer">Repository Registration page</a>. You will be asked to fill out and submit the linked form. Once complete, the ITS JPO Support Team will review your application and determine whether the repository will be made discoverable through ITS CodeHub. </p>
+                                <p class="faqs-answer">Check out the detailed registration process on the <a href="/code/repository-registration.htm" rel="noopener noreferrer">Repository Registration page</a>. You will be asked to fill out and submit the linked form. Once complete, the ITS JPO Support Team will review your application and determine whether the repository will be made discoverable through ITS CodeHub. </p>
                                 
                                 <p class="faqs-question">Does ITS CodeHub have any guidelines for developing open source code?</p>
                                 <p class="faqs-answer p_reduce-bottom-margin">ITS CodeHub encourages safe coding practices and for code to be developed with open standards in mind. Here is the ITS JPO CodeHub's Code Quality Best Practices Checklist:</p> 
@@ -928,7 +925,7 @@ Vue.component('additional-resources', {
                                 <h2><a href="https://www.its.dot.gov/data/" rel="noopener noreferrer" target="_blank">ITS DataHub<img src="images/new_tab_icon.svg" alt="External link icon" width="13px" height="12px" class="external-link-icon"/></a></h2>
                                 <p>ITS DataHub provides a single point of entry to discover the U.S. DOT&#39;s publicly available ITS research data, including connected vehicle data.</p>
 
-                                <h2><a href="https://www.its.dot.gofastfacts.htm" rel="noopener noreferrer" target="_blank">ITS Fast Facts<img src="images/new_tab_icon.svg" alt="External link icon" width="13px" height="12px" class="external-link-icon"/></a></h2>
+                                <h2><a href="https://www.its.dot.gov/resources/fastfacts.htm" rel="noopener noreferrer" target="_blank">ITS Fast Facts<img src="images/new_tab_icon.svg" alt="External link icon" width="13px" height="12px" class="external-link-icon"/></a></h2>
                                 <p>ITS Fast Facts provides an overview of intelligent transportation systems (ITS), how the U.S. DOT has invested in ITS, and the benefits ITS offers.</p>
 
                                 <h2><a href="https://www.its.dot.gov/pilots/" rel="noopener noreferrer" target="_blank">ITS JPO Connected Vehicle Pilot Deployment Program<img src="images/new_tab_icon.svg" alt="External link icon" width="13px" height="12px" class="external-link-icon"/></a></h2>
