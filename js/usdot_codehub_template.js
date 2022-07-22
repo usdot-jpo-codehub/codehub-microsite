@@ -158,6 +158,7 @@ Vue.component('search-results', {
         if (this.query == '' || this.query == 'null') {
             this.gitHubRateLimitExceeded = true;
             this.searchResults = this.loadGitHubRepositories();
+            this.query = "";
             sessionStorage.setItem("sentSearchTerm","");
         }
 
@@ -175,6 +176,11 @@ Vue.component('search-results', {
             // conducts the search
             this.searchResults = this.searchRepositories(this.query);
         }
+
+        // orders search results based on relevance, name, and date
+        this.onSearchResults(this.searchResults);
+        var mainSearchElement = document.getElementById("mainSearch");
+        if (mainSearchElement != null)  mainSearchElement.value = search_query;
     },
     methods: {
 
@@ -346,13 +352,12 @@ Vue.component('search-results', {
                 if (!isSearchingByLanguage && !self.matchHasDuplicate(item, searchResults) && item["category"].toLowerCase().search(search_query.toLowerCase()) > -1) searchResults.push(item);
             }
 
-            self.onSearchResults(searchResults);
             return searchResults;
         },
 
         // Sorts search results by relevance, date, or name. Also removes duplicates.
         onSearchResults: function (searchResults){
-
+            var self = this;
             self.relevanceSortedSearchResults = searchResults.slice();
 
             self.updatedSortedSearchResults = searchResults.slice();
@@ -818,10 +823,10 @@ Vue.component('registration', {
                         </div>
                         <div class="flex-area_row">
                             <div class="flex-area_column">
-                                <h2><span class="accent-color-text">Step 3</span><br><span class="gray-text">Repository
-                                        Listing</span></h2>
+                                <h2><span class="accent-color-text">Step 3</span><br><span
+                                        class="gray-text">Repository Listing</span></h2>
                                 <p>The repository will be added to the list of ITS JPO repositories made
-                                    discoverable on the ITS CodeHub.</p>
+                                    discoverable on the ITS CodeHub by the website's admins.</p>
                             </div>
                             <div class="flex-area_column">
                                 <img src="images/ITSJPO_CodeHub_RepositoryRegistration_012820_3.svg"
