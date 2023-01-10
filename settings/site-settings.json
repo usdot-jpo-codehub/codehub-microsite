@@ -94,7 +94,8 @@
                 "usdot-jpo-sdc/sdc-dot-metadata-ingest",
                 "OSADP/SEMI-ODE",
                 "OSADP/SSAM",
-                "usdot-its-jpo-code/udp-interface"
+                "usdot-its-jpo-code/udp-interface",
+                "VolpeUSDOT/JPO-CVP-SDCEvaluationCode"
             ]
         },
         {
@@ -105,7 +106,8 @@
             "repositories": [
                 "OSADP/Construction-Work-Zone-Mitigation-Tool",
                 "TonyEnglish/Work_Zone_Data_Collection_Toolset",
-                "usdot-jpo-ode/jpo-wzdx"
+                "usdot-jpo-ode/jpo-wzdx",
+                "TFHRCFASTNDElab/CHARISMA"
             ]
         },
         {

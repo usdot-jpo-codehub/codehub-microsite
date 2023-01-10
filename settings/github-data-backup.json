@@ -54,10 +54,22 @@
         "owner": "VolpeUSDOT",
         "ownerType": "organization",
         "language": "Python",
-        "updatedAt": "2022-01-11T02:28:14Z",
-        "forksCount": 6,
-        "watchersCount": 3,
+        "updatedAt": "2022-09-13T16:15:27Z",
+        "forksCount": 7,
+        "watchersCount": 4,
         "category": "Commercial Vehicle Operations"
+    },
+    {
+        "name": "JPO-CVP-SDCEvaluationCode",
+        "url": "https://github.com/VolpeUSDOT/JPO-CVP-SDCEvaluationCode",
+        "description": "Code and scripts used to curate, process, and analyze connected vehicle pilot data files produced by pilot sites during USDOTs ITSJPO Connected Vehicle Pilot Program. ",
+        "owner": "VolpeUSDOT",
+        "ownerType": "organization",
+        "language": "Python",
+        "updatedAt": "2022-11-23T14:12:39Z",
+        "forksCount": 0,
+        "watchersCount": 0,
+        "category": "Data Management"
     },
     {
         "name": "TCA",
@@ -175,7 +187,7 @@
         "ownerType": "organization",
         "language": "C++",
         "updatedAt": "2021-04-23T10:12:54Z",
-        "forksCount": 5,
+        "forksCount": 6,
         "watchersCount": 2,
         "category": "Vehicle Safety"
     },
@@ -271,7 +283,7 @@
         "ownerType": "organization",
         "language": "C",
         "updatedAt": "2019-10-10T12:45:16Z",
-        "forksCount": 1,
+        "forksCount": 2,
         "watchersCount": 0,
         "category": "Traffic Management"
     },
@@ -354,9 +366,9 @@
         "owner": "OSADP",
         "ownerType": "organization",
         "language": "Python",
-        "updatedAt": "2022-06-12T12:05:48Z",
+        "updatedAt": "2022-07-26T05:13:22Z",
         "forksCount": 1,
-        "watchersCount": 3,
+        "watchersCount": 4,
         "category": "Traffic Management"
     },
     {
@@ -402,8 +414,8 @@
         "owner": "OSADP",
         "ownerType": "organization",
         "language": "Java",
-        "updatedAt": "2019-10-10T15:21:32Z",
-        "forksCount": 0,
+        "updatedAt": "2022-08-12T13:24:41Z",
+        "forksCount": 1,
         "watchersCount": 0,
         "category": "Sustainable Travel"
     },
@@ -414,9 +426,9 @@
         "owner": "OSADP",
         "ownerType": "organization",
         "language": "C#",
-        "updatedAt": "2022-04-14T21:55:28Z",
+        "updatedAt": "2022-11-02T21:03:17Z",
         "forksCount": 1,
-        "watchersCount": 2,
+        "watchersCount": 3,
         "category": "Traffic Management"
     },
     {
@@ -474,9 +486,9 @@
         "owner": "mmitss",
         "ownerType": "organization",
         "language": "C++",
-        "updatedAt": "2022-05-15T17:17:02Z",
+        "updatedAt": "2022-11-16T01:21:23Z",
         "forksCount": 5,
-        "watchersCount": 10,
+        "watchersCount": 11,
         "category": "Traffic Management"
     },
     {
@@ -534,9 +546,9 @@
         "owner": "STOL-AMS",
         "ownerType": "organization",
         "language": "C++",
-        "updatedAt": "2022-03-13T11:28:50Z",
+        "updatedAt": "2022-10-13T18:46:47Z",
         "forksCount": 0,
-        "watchersCount": 8,
+        "watchersCount": 9,
         "category": "Vehicle Safety"
     },
     {
@@ -554,25 +566,25 @@
     {
         "name": "carma-cloud",
         "url": "https://github.com/usdot-fhwa-stol/carma-cloud",
-        "description": "Now available! Cloud-based open source software (OSS) that enables infrastructure cooperation with automated driving technology through Transportation Systems Management and Operations (TSMO).",
+        "description": "Now available! Cloud-based open source software (OSS) that enables infrastructure cooperation with automated driving technology through Transportation Systems Management and Operations (TSMO). Doxygen Source Code Documentation : https://usdot-fhwa-stol.github.io/documentation/carma-cloud/",
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "Java",
-        "updatedAt": "2022-05-19T02:52:18Z",
+        "updatedAt": "2022-11-30T12:31:29Z",
         "forksCount": 12,
-        "watchersCount": 18,
+        "watchersCount": 20,
         "category": "Vehicle Safety"
     },
     {
         "name": "carma-platform",
         "url": "https://github.com/usdot-fhwa-stol/carma-platform",
-        "description": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication.",
+        "description": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication. Doxygen Source Code Documentation :",
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "C++",
-        "updatedAt": "2022-06-22T05:34:37Z",
-        "forksCount": 102,
-        "watchersCount": 311,
+        "updatedAt": "2022-12-26T11:04:58Z",
+        "forksCount": 111,
+        "watchersCount": 339,
         "category": "Vehicle Safety"
     },
     {
@@ -582,7 +594,7 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "C",
-        "updatedAt": "2020-08-13T14:25:17Z",
+        "updatedAt": "2022-09-22T19:28:11Z",
         "forksCount": 0,
         "watchersCount": 2,
         "category": "Other"
@@ -594,9 +606,9 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "CMake",
-        "updatedAt": "2022-02-07T18:31:54Z",
+        "updatedAt": "2022-11-27T18:31:30Z",
         "forksCount": 7,
-        "watchersCount": 5,
+        "watchersCount": 6,
         "category": "Vehicle Safety"
     },
     {
@@ -630,7 +642,7 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "C",
-        "updatedAt": "2020-08-13T14:26:03Z",
+        "updatedAt": "2022-11-15T15:17:50Z",
         "forksCount": 0,
         "watchersCount": 1,
         "category": "Vehicle Safety"
@@ -642,7 +654,7 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "C++",
-        "updatedAt": "2020-07-28T14:25:41Z",
+        "updatedAt": "2022-11-15T15:20:23Z",
         "forksCount": 0,
         "watchersCount": 0,
         "category": "Vehicle Safety"
@@ -654,7 +666,7 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "C++",
-        "updatedAt": "2020-04-16T20:49:39Z",
+        "updatedAt": "2022-11-15T15:18:55Z",
         "forksCount": 0,
         "watchersCount": 0,
         "category": "Vehicle Safety"
@@ -666,9 +678,9 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "C++",
-        "updatedAt": "2022-06-03T20:37:43Z",
-        "forksCount": 5,
-        "watchersCount": 6,
+        "updatedAt": "2022-12-10T20:29:39Z",
+        "forksCount": 6,
+        "watchersCount": 8,
         "category": "Vehicle Safety"
     },
     {
@@ -679,7 +691,7 @@
         "ownerType": "organization",
         "language": "JavaScript",
         "updatedAt": "2022-01-04T15:18:29Z",
-        "forksCount": 3,
+        "forksCount": 4,
         "watchersCount": 4,
         "category": "Vehicle Safety"
     },
@@ -726,9 +738,9 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "C++",
-        "updatedAt": "2022-05-16T08:14:15Z",
-        "forksCount": 2,
-        "watchersCount": 3,
+        "updatedAt": "2022-07-18T05:35:42Z",
+        "forksCount": 3,
+        "watchersCount": 4,
         "category": "Vehicle Safety"
     },
     {
@@ -739,7 +751,7 @@
         "ownerType": "organization",
         "language": "C++",
         "updatedAt": "2022-01-04T15:15:02Z",
-        "forksCount": 2,
+        "forksCount": 4,
         "watchersCount": 1,
         "category": "Vehicle Safety"
     },
@@ -751,7 +763,7 @@
         "ownerType": "organization",
         "language": "Shell",
         "updatedAt": "2022-01-04T15:19:10Z",
-        "forksCount": 2,
+        "forksCount": 3,
         "watchersCount": 0,
         "category": "Vehicle Safety"
     },
@@ -763,7 +775,7 @@
         "ownerType": "organization",
         "language": "C++",
         "updatedAt": "2022-03-09T20:24:53Z",
-        "forksCount": 8,
+        "forksCount": 11,
         "watchersCount": 2,
         "category": "Other"
     },
@@ -775,7 +787,7 @@
         "ownerType": "organization",
         "language": "C++",
         "updatedAt": "2022-01-04T15:19:32Z",
-        "forksCount": 4,
+        "forksCount": 6,
         "watchersCount": 0,
         "category": "Vehicle Safety"
     },
@@ -787,7 +799,7 @@
         "ownerType": "organization",
         "language": "Shell",
         "updatedAt": "2022-01-06T15:34:40Z",
-        "forksCount": 5,
+        "forksCount": 7,
         "watchersCount": 1,
         "category": "Vehicle Safety"
     },
@@ -799,7 +811,7 @@
         "ownerType": "organization",
         "language": "Python",
         "updatedAt": "2022-03-01T22:08:38Z",
-        "forksCount": 7,
+        "forksCount": 10,
         "watchersCount": 2,
         "category": "Vehicle Safety"
     },
@@ -818,13 +830,13 @@
     {
         "name": "carma-messenger",
         "url": "https://github.com/usdot-fhwa-stol/carma-messenger",
-        "description": "CARMA Messenger will be a scaled down version of CARMA Platform for a non-automated vehicle to participate in Cooperative Driving Automation (CDA).",
+        "description": "CARMA Messenger will be a scaled down version of CARMA Platform for a non-automated vehicle to participate in Cooperative Driving Automation (CDA). Doxygen Source Code Documentation: https://usdot-fhwa-stol.github.io/documentation/carma-messenger/",
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
-        "language": "C",
-        "updatedAt": "2022-01-04T15:18:04Z",
-        "forksCount": 8,
-        "watchersCount": 12,
+        "language": "C++",
+        "updatedAt": "2022-12-14T13:57:45Z",
+        "forksCount": 9,
+        "watchersCount": 13,
         "category": "Other"
     },
     {
@@ -846,9 +858,9 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "Python",
-        "updatedAt": "2022-05-19T11:51:53Z",
+        "updatedAt": "2022-09-30T15:47:32Z",
         "forksCount": 7,
-        "watchersCount": 8,
+        "watchersCount": 10,
         "category": "Other"
     },
     {
@@ -859,7 +871,7 @@
         "ownerType": "organization",
         "language": "C++",
         "updatedAt": "2022-01-04T15:14:20Z",
-        "forksCount": 0,
+        "forksCount": 1,
         "watchersCount": 1,
         "category": "Other"
     },
@@ -870,7 +882,7 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "N/A",
-        "updatedAt": "2020-03-31T13:18:30Z",
+        "updatedAt": "2022-09-28T21:48:38Z",
         "forksCount": 0,
         "watchersCount": 0,
         "category": "Other"
@@ -894,9 +906,9 @@
         "owner": "usdot-fhwa-stol",
         "ownerType": "organization",
         "language": "Java",
-        "updatedAt": "2022-05-26T00:54:18Z",
-        "forksCount": 6,
-        "watchersCount": 10,
+        "updatedAt": "2022-12-19T11:49:09Z",
+        "forksCount": 7,
+        "watchersCount": 13,
         "category": "Other"
     },
     {
@@ -906,9 +918,9 @@
         "owner": "usdot-jpo-ode",
         "ownerType": "organization",
         "language": "Java",
-        "updatedAt": "2022-05-24T19:34:20Z",
-        "forksCount": 37,
-        "watchersCount": 69,
+        "updatedAt": "2022-12-21T23:51:13Z",
+        "forksCount": 40,
+        "watchersCount": 71,
         "category": "Data Management"
     },
     {
@@ -931,7 +943,7 @@
         "ownerType": "organization",
         "language": "C++",
         "updatedAt": "2021-11-08T16:10:57Z",
-        "forksCount": 9,
+        "forksCount": 10,
         "watchersCount": 14,
         "category": "Support"
     },
@@ -990,9 +1002,9 @@
         "owner": "usdot-jpo-ode",
         "ownerType": "organization",
         "language": "C++",
-        "updatedAt": "2022-04-16T13:01:10Z",
+        "updatedAt": "2022-07-08T01:36:07Z",
         "forksCount": 15,
-        "watchersCount": 8,
+        "watchersCount": 9,
         "category": "Support"
     },
     {
@@ -1074,9 +1086,9 @@
         "owner": "usdot-jpo-ode",
         "ownerType": "organization",
         "language": "N/A",
-        "updatedAt": "2022-06-14T18:29:53Z",
-        "forksCount": 53,
-        "watchersCount": 65,
+        "updatedAt": "2022-12-14T22:08:42Z",
+        "forksCount": 56,
+        "watchersCount": 71,
         "category": "Other"
     },
     {
@@ -1125,6 +1137,42 @@
         "updatedAt": "2022-03-15T23:08:07Z",
         "forksCount": 0,
         "watchersCount": 1,
+        "category": "Other"
+    },
+    {
+        "name": "TDx",
+        "url": "https://github.com/usdot-jpo-ode/TDx",
+        "description": "Transportation Data Exchanges",
+        "owner": "usdot-jpo-ode",
+        "ownerType": "organization",
+        "language": "N/A",
+        "updatedAt": "2022-09-22T14:47:55Z",
+        "forksCount": 0,
+        "watchersCount": 3,
+        "category": "Other"
+    },
+    {
+        "name": "jpo-geojsonconverter",
+        "url": "https://github.com/usdot-jpo-ode/jpo-geojsonconverter",
+        "description": "N/A",
+        "owner": "usdot-jpo-ode",
+        "ownerType": "organization",
+        "language": "Java",
+        "updatedAt": "2022-11-01T07:50:26Z",
+        "forksCount": 3,
+        "watchersCount": 2,
+        "category": "Other"
+    },
+    {
+        "name": "jpo-conflictmonitor",
+        "url": "https://github.com/usdot-jpo-ode/jpo-conflictmonitor",
+        "description": "N/A",
+        "owner": "usdot-jpo-ode",
+        "ownerType": "organization",
+        "language": "N/A",
+        "updatedAt": "2022-10-20T19:21:19Z",
+        "forksCount": 1,
+        "watchersCount": 0,
         "category": "Other"
     },
     {
@@ -1734,7 +1782,7 @@
         "owner": "usdot-jpo-codehub",
         "ownerType": "user",
         "language": "JavaScript",
-        "updatedAt": "2022-06-17T15:33:03Z",
+        "updatedAt": "2022-07-22T17:18:23Z",
         "forksCount": 0,
         "watchersCount": 0,
         "category": "Other"
@@ -1938,9 +1986,9 @@
         "owner": "OSADP",
         "ownerType": "user",
         "language": "C#",
-        "updatedAt": "2022-04-14T21:55:28Z",
+        "updatedAt": "2022-11-02T21:03:17Z",
         "forksCount": 1,
-        "watchersCount": 2,
+        "watchersCount": 3,
         "category": "Traffic Management"
     },
     {
@@ -1951,7 +1999,7 @@
         "ownerType": "user",
         "language": "HTML",
         "updatedAt": "2022-04-25T19:07:15Z",
-        "forksCount": 0,
+        "forksCount": 1,
         "watchersCount": 0,
         "category": "Other"
     },
@@ -2142,8 +2190,8 @@
         "owner": "OSADP",
         "ownerType": "user",
         "language": "Java",
-        "updatedAt": "2019-10-10T15:21:32Z",
-        "forksCount": 0,
+        "updatedAt": "2022-08-12T13:24:41Z",
+        "forksCount": 1,
         "watchersCount": 0,
         "category": "Sustainable Travel"
     },
@@ -2166,7 +2214,7 @@
         "owner": "OSADP",
         "ownerType": "user",
         "language": "Java",
-        "updatedAt": "2022-03-29T10:17:29Z",
+        "updatedAt": "2022-11-16T15:51:02Z",
         "forksCount": 2,
         "watchersCount": 4,
         "category": "Weather"
@@ -2250,9 +2298,9 @@
         "owner": "UrbanOS-Public",
         "ownerType": "user",
         "language": "Mustache",
-        "updatedAt": "2022-03-05T18:32:43Z",
-        "forksCount": 8,
-        "watchersCount": 6,
+        "updatedAt": "2022-12-14T23:00:56Z",
+        "forksCount": 9,
+        "watchersCount": 8,
         "category": "Other"
     },
     {
@@ -2275,7 +2323,7 @@
         "ownerType": "user",
         "language": "Dockerfile",
         "updatedAt": "2022-03-17T02:49:32Z",
-        "forksCount": 2,
+        "forksCount": 3,
         "watchersCount": 15,
         "category": "Other"
     },
@@ -2322,9 +2370,9 @@
         "owner": "UrbanOS-Public",
         "ownerType": "user",
         "language": "Elixir",
-        "updatedAt": "2022-05-04T17:27:30Z",
+        "updatedAt": "2022-12-14T23:01:57Z",
         "forksCount": 8,
-        "watchersCount": 50,
+        "watchersCount": 57,
         "category": "Other"
     },
     {
@@ -2350,5 +2398,17 @@
         "forksCount": 0,
         "watchersCount": 0,
         "category": "Traveler Information"
+    },
+    {
+        "name": "CHARISMA",
+        "url": "https://github.com/TFHRCFASTNDElab/CHARISMA",
+        "description": "Collaborative Highway Asset Research: Integrated Sensor-Modeling application (CHARISMA) is a collaborative platform collaborative analysis and visualization of NDE and other infrastructure data and for the fusion of sensor data with digital twin models.",
+        "owner": "TFHRCFASTNDElab",
+        "ownerType": "user",
+        "language": "Python",
+        "updatedAt": "2022-12-20T14:22:21Z",
+        "forksCount": 0,
+        "watchersCount": 0,
+        "category": "Maintenance and Construction"
     }
 ]

@@ -2,7 +2,7 @@
     "organizations": [
         {
             "name": "VolpeUSDOT",
-            "repositories": [ "FTOT-Public", "caco-parking-map", "gtfs-measures", "PLT-Web-Map", "rec-gov-analysis"]
+            "repositories": [ "FTOT-Public", "caco-parking-map", "gtfs-measures", "PLT-Web-Map", "rec-gov-analysis", "JPO-CVP-SDCEvaluationCode"]
         },
         {
             "name": "OSADP",
@@ -65,6 +65,10 @@
         {
             "name": "scottrmiddleton",
             "repositories": [ "FHWA-Relative-Mode-Share-Impacts-under-Different-Shared-Rides-Scenarios" ]
+        },
+        {
+            "name": "TFHRCFASTNDElab",
+            "repositories": [ "CHARISMA" ]
         }
     ]
 }
