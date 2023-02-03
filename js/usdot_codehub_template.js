@@ -266,7 +266,7 @@ Vue.component('search-results', {
                         tempJson["owner"] = json[itemCount]["owner"]["login"]           != null ? json[itemCount]["owner"]["login"] : defaultVal;
                         tempJson["ownerType"] = ownerType;
                         tempJson["language"] = json[itemCount]["language"]              != null ? json[itemCount]["language"] : defaultVal;
-                        tempJson["updatedAt"] = json[itemCount]["updated_at"]           != null ? json[itemCount]["updated_at"] : defaultVal;
+                        tempJson["pushedAt"] = json[itemCount]["pushed_at"]           != null ? json[itemCount]["pushed_at"] : defaultVal;
                         tempJson["forksCount"] = json[itemCount]["forks_count"]         != null ? json[itemCount]["forks_count"] : defaultVal;
                         tempJson["watchersCount"] = json[itemCount]["watchers_count"]   != null ? json[itemCount]["watchers_count"] : defaultVal;
 
@@ -410,8 +410,8 @@ Vue.component('search-results', {
         // Sorts search results by date created
         compareUpdated: function(a, b) {
             var self = this;
-            var dateA = new Date(a.updatedAt);
-            var dateB = new Date(b.updatedAt);
+            var dateA = new Date(a.pushedAt);
+            var dateB = new Date(b.pushedAt);
 
             let comparison = 0;
             if (dateA < dateB) {
@@ -517,7 +517,7 @@ If you choose to not accept, you will be unable to access the data discoverable 
                                         <td style="text-align: right; width: 30%;">
                                             <p class="resultItemHeader date-access">
                                                 <span class="slightly-bold">Last Update:</span>
-                                                {{ item.updatedAt.substring(0,10) }}
+                                                {{ item.pushedAt.substring(0,10) }}
                                                 <br />
                                             </p>
                                         </td>
@@ -779,10 +779,11 @@ Vue.component('registration', {
                         <div class="lead-paragraph bottom-border flex-area_row">
                             <p>ITS CodeHub is committed to providing the ITS community simplified access to the
                                 most relevant and useful repositories. If you would like to make a repository
-                                discoverable through ITS CodeHub, please follow the steps listed below.
+                                discoverable through ITS CodeHub, please follow the steps listed below. For more information, click the button
+                                below to download a the ITS JPO CodeHub Upload Process powerpoint presentation.
                             </p>
-                            <button id="download-repository-form"><a href="documents/ITS_CodeHub_Repository_Registration_Form.docx" role="button">
-                                DOWNLOAD REPOSITORY REGISTRATION FORM <img
+                            <button id="download-repository-form"><a href="documents/CodeHubUploadProcess.pptx" role="button">
+                                DOWNLOAD INSTRUCTIONS <img
                                     src="images/downloadarrow_white.svg" alt="download-icon"
                                     class="download-icon" /></a></button>
                         </div>
@@ -791,11 +792,9 @@ Vue.component('registration', {
                             <div class="flex-area_column">
                                 <h2><span class="accent-color-text">Step 1</span><br><span class="gray-text">Submit
                                         Repository Information</span></h2>
-                                <p>Begin the registration process by downloading, completing, and submitting the
-                                    <a href="documents/ITS_CodeHub_Repository_Registration_Form.docx">Repository
-                                        Registration Form<img src="images/downloadarrow_blue.svg"
-                                            alt="download-icon" class="download-icon" /></a> via email to <a
-                                        href="mailto:data.itsjpo@dot.gov">data.itsjpo@dot.gov</a>. For Code Quality Best Practices, please download the <a href="documents/ITS_JPO_CodeHubs_Code_Quality_Best_Practices_Checklist.pdf" rel="noopener noreferrer" target="_blank">ITS JPO CodeHub's Code Quality Best Practices Checklist<img src="images/new_tab_icon.svg" alt="External link icon" width="13px" height="12px" class="external-link-icon" /></a>.</p>
+                                <p>Begin the registration process by emailing the ITS JPO Data Program at 
+                                    <a href="mailto:data.itsjpo@dot.gov">data.itsjpo@dot.gov</a>. In the email, provide the name of your project, 
+                                    points of contact, the current status of the project/code, and information on how the project is funded (JPO, FHWA, etc.)</p>
                             </div>
                             <div class="flex-area_column">
                                 <img src="images/ITSJPO_CodeHub_RepositoryRegistration_012820_1.svg"
@@ -806,14 +805,10 @@ Vue.component('registration', {
                         <div class="flex-area_row">
                             <div class="flex-area_column">
                                 <h2><span class="accent-color-text">Step 2</span><br><span
-                                        class="gray-text">Registration Form Submission Review</span></h2>
-                                <p>Upon receipt of the <a
-                                        href="documents/ITS_CodeHub_Repository_Registration_Form.docx">Repository
-                                        Registration Form<img src="images/downloadarrow_blue.svg"
-                                            alt="download-icon" class="download-icon" /></a>, the ITS JPO
-                                    Support Team will review the submitted information. If all required
-                                    information is provided, the repository will be approved for listing on ITS
-                                    CodeHub.</p>
+                                        class="gray-text">Project Submission Review</span></h2>
+                                <p>The ITS JPO Support Team will confirm receipt of your email within two days and will
+                                start a review of the submitted information. You will receive notice of whether your 
+                                project has been approved for listing on ITS CodeHub within one week.</p>
                             </div>
                             <div class="flex-area_column">
                                 <img src="images/ITSJPO_CodeHub_RepositoryRegistration_012820_2.svg"
@@ -825,8 +820,12 @@ Vue.component('registration', {
                             <div class="flex-area_column">
                                 <h2><span class="accent-color-text">Step 3</span><br><span
                                         class="gray-text">Repository Listing</span></h2>
-                                <p>The repository will be added to the list of ITS JPO repositories made
-                                    discoverable on the ITS CodeHub by the website's admins.</p>
+                                <p>If you have not already done so add your code to a public GitHub repository or if preferred, a GitHub repository
+                                can also be created for you under the control of the ITS JPO Support Team. Include an appropriate README
+                                following the <a href="documents/CodeHubREADMETemplate.md" rel="noopener noreferrer" target="_blank">ITS CodeHub README template<img src="images/new_tab_icon.svg" alt="External link icon" width="13px" height="12px" class="external-link-icon" /></a>. 
+                                For Code Quality Best Practices, please download the <a href="documents/ITS_JPO_CodeHubs_Code_Quality_Best_Practices_Checklist.pdf" rel="noopener noreferrer" target="_blank">ITS CodeHub Code Quality Best Practices Checklist<img src="images/new_tab_icon.svg" alt="External link icon" width="13px" height="12px" class="external-link-icon" /></a>. 
+                                The repository will be added to the list of ITS JPO repositories and made discoverable on the ITS CodeHub by the website's admins after
+                                it has passed the final review of the code and documentation.</p>
                             </div>
                             <div class="flex-area_column">
                                 <img src="images/ITSJPO_CodeHub_RepositoryRegistration_012820_3.svg"
