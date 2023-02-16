@@ -118,7 +118,7 @@
             "repositories": [
                 "VolpeUSDOT/caco-parking-map",
                 "Datastillery/parking_prediction",
-                "Datastillery/parking_prediction_orchestration"
+                "Datastillery/parking_prediction_orchestration",
                 "RegionalPlanAssoc/cruisedetector "
             ]
         },
