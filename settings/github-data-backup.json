@@ -66,7 +66,7 @@
         "owner": "VolpeUSDOT",
         "ownerType": "organization",
         "language": "Python",
-        "updatedAt": "2022-11-23T14:12:39Z",
+        "pushedAt": "2022-11-23T14:12:39Z",
         "forksCount": 0,
         "watchersCount": 0,
         "category": "Data Management"
@@ -2406,9 +2406,21 @@
         "owner": "TFHRCFASTNDElab",
         "ownerType": "user",
         "language": "Python",
-        "updatedAt": "2022-12-20T14:22:21Z",
+        "pushedAt": "2022-12-20T14:22:21Z",
         "forksCount": 0,
         "watchersCount": 0,
         "category": "Maintenance and Construction"
+    },
+    {
+        "name": "cruisedetector",
+        "url": "https://github.com/RegionalPlanAssoc/cruisedetector",
+        "description": "GPS Cruising Identification model developed by the Federal Highway Administration",
+        "owner": "RegionalPlanAssoc",
+        "ownerType": "user",
+        "language": "Python",
+        "pushedAt": "2023-01-20T14:22:21Z",
+        "forksCount": 0,
+        "watchersCount": 2,
+        "category": "Parking Management"
     }
 ]
