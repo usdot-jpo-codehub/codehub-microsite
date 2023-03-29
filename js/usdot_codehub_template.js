@@ -779,13 +779,8 @@ Vue.component('registration', {
                         <div class="lead-paragraph bottom-border flex-area_row">
                             <p>ITS CodeHub is committed to providing the ITS community simplified access to the
                                 most relevant and useful repositories. If you would like to make a repository
-                                discoverable through ITS CodeHub, please follow the steps listed below. For more information, click the button
-                                below to download a the ITS JPO CodeHub Upload Process powerpoint presentation.
+                                discoverable through ITS CodeHub, please follow the steps listed below. 
                             </p>
-                            <button id="download-repository-form"><a href="documents/CodeHubUploadProcess.pptx" role="button">
-                                DOWNLOAD INSTRUCTIONS <img
-                                    src="images/downloadarrow_white.svg" alt="download-icon"
-                                    class="download-icon" /></a></button>
                         </div>
 
                         <div class="flex-area_row">

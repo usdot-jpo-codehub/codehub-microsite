@@ -207,7 +207,8 @@
             "repositories": [
                 "OSADP/D-RIDE-AMS",
                 "scottrmiddleton/FHWA-Relative-Mode-Share-Impacts-under-Different-Shared-Rides-Scenarios",
-                "OSADP/UMinn-SmarTrAC"
+                "OSADP/UMinn-SmarTrAC",
+                "mhcorbinllc/Open_CIMT"
             ]
         },
         {

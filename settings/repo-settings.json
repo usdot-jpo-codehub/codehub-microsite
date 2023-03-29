@@ -73,6 +73,10 @@
         {
             "name": "RegionalPlanAssoc",
             "repositories": ["cruisedetector"]
+        },
+        {
+            "name": "mhcorbinllc",
+            "repositories":["Open_CIMT"]
         }
     ]
 }

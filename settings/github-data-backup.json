@@ -2414,7 +2414,7 @@
     {
         "name": "cruisedetector",
         "url": "https://github.com/RegionalPlanAssoc/cruisedetector",
-        "description": "GPS Cruising Identification model developed by the Federal Highway Administration",
+        "description": "Cruise Detector: A GPS Cruising Identification model developed by the Federal Highway Administration",
         "owner": "RegionalPlanAssoc",
         "ownerType": "user",
         "language": "Python",
@@ -2422,5 +2422,17 @@
         "forksCount": 0,
         "watchersCount": 2,
         "category": "Parking Management"
+    },
+    {
+        "name": "OpenCIMT",
+        "url": "https://github.com/mhcorbinllc/Open_CIMT",
+        "description": "Cloud hosted tool used to generate traveler information messages (TIMs) for lane closures, reduced speed zones and curve speed warning.",
+        "owner": "mhcorbinllc",
+        "ownerType": "user",
+        "language": "TypeScript",
+        "pushedAt": "2022-10-03T16:52:21Z",
+        "forksCount": 0,
+        "watchersCount": 1,
+        "category": "Traveler Information"
     }
 ]
