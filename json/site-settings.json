@@ -1,0 +1,248 @@
+{
+    "background_image": "./src/assets/images/Header.webp",
+	"contact_email": "data.itsjpo@dot.gov",
+    "maxFeatured": 3,
+    "maxCategories": 16,
+    "featured": [
+        {
+            "name": "C2C-RI",
+            "url": "https://github.com/OSADP/C2C-RI",
+            "description": "This repository contains the source code of the Center-To-Center Reference Implementation (C2C RI) Tool. The C2C RI supports efficient deployment of systems using C2C communications by providing a standardized way to verify conformance to C2C standards.",
+            "org": "OSADP",
+            "language": "HTML",
+            "category": "Other",
+            "altText" : ""
+        },
+        {
+            "name": "wzdx",
+            "url": "https://github.com/usdot-jpo-ode/wzdx",
+            "description": "The Work Zone Data Exchange (WZDx) Specification aims to make harmonized work zone data provided by infrastructure owners and operators (IOOs) available for third party use, making travel on public roads safer and more efficient through ubiquitous access to data on work zone activity.",
+            "org": "usdot-jpo-ode",
+            "language": "N/A",
+            "category": "Other",
+            "altText": ""
+        },
+        {
+            "name": "carma-platform",
+            "url": "https://github.com/usdot-fhwa-stol/carma-platform ",
+            "description": "CARMA Platform is built on robot operating system (ROS) and utilizes open source software (OSS) that enables Cooperative Driving Automation (CDA) features to allow Automated Driving Systems to interact and cooperate with infrastructure and other vehicles through communication.",
+            "org": "usdot-fhwa-stol",
+            "language": "C++",
+            "category": "Vehicle Safety",
+            "altText": ""
+        }
+    ],
+    "categories": [
+        {
+            "name": "Commercial Vehicle Operations",
+            "altText": "Search for Commercial Vehicle Operations.",
+            "repositories": [
+                "VolpeUSDOT/FTOT-Public",
+                "OSADP/LA-FRATIS",
+                "OSADP/SRI"
+            ]
+        },
+        {
+            "name": "Data Management",
+            "altText": "Search for Data Management.",
+            "repositories": [
+                "usdot-its-jpo-code/aws-metrics-and-reporting",
+                "usdot-its-jpo-data-portal/boto3-sqs-extended-client-lib",
+                "usdot-its-jpo-data-portal/canary-lambda",
+                "usdot-jpo-codehub/codehub-admin-api",
+                "usdot-jpo-codehub/codehub-cloudformation",
+                "usdot-jpo-codehub/codehub-ingest",
+                "usdot-jpo-codehub/codehub-readme-template",
+                "usdot-jpo-codehub/codehub-search",
+                "usdot-jpo-codehub/codehub-standalone",
+                "usdot-jpo-codehub/codehub-standalone_repository-list-generator",
+                "usdot-jpo-codehub/codehub-ui",
+                "usdot-jpo-codehub/codehub-ui-image-server",
+                "usdot-jpo-codehub/codehub-webapi",
+                "usdot-its-jpo-data-portal/cv_pilot_ingest",
+                "OSADP/CVD-DME",
+                "usdot-its-jpo-data-portal/data-access-coe-resources",
+                "OSADP/Data-Visualization-Tool",
+                "usdot-its-jpo-data-portal/datahub-pages",
+                "usdot-its-jpo-data-portal/datahub-search",
+                "usdot-its-jpo-data-portal/datahub-ui",
+                "Datastillery/charts",
+                "Datastillery/react_discovery_ui",
+                "Datastillery/kdp",
+                "Datastillery/smartcitiesdata",
+                "usdot-its-jpo-data-portal/dmp_analysis_script",
+                "usdot-its-jpo-code/fedgov-cv-webfragment-rest",
+                "usdot-its-jpo-data-portal/its-dmp-data-dictionary",
+                "usdot-jpo-ode/jpo-ode",
+                "usdot-jpo-ode/jpo-record-parser",
+                "usdot-jpo-ode/jpo-s3-deposit",
+                "usdot-its-jpo-code/jpo-sdcsdw",
+                "usdot-jpo-ode/jpo-sdw-depositor",
+                "usdot-its-jpo-data-portal/metadata-query-function",
+                "usdot-its-jpo-data-portal/metadata_ingest",
+                "OSADP/Motion-Logger",
+                "usdot-jpo-ode/ode-output-validator-library",
+                "OSADP/P-ODE",
+                "usdot-its-jpo-data-portal/performance-dashboard",
+                "FHWA/RDE-Visualization-Website",
+                "usdot-its-jpo-data-portal/RDE-Visualization-Website_DataHubDiversion",
+                "usdot-its-jpo-data-portal/sandbox",
+                "usdot-jpo-sdc/sdc-dot-metadata-ingest",
+                "OSADP/SEMI-ODE",
+                "OSADP/SSAM",
+                "usdot-its-jpo-code/udp-interface",
+                "VolpeUSDOT/JPO-CVP-SDCEvaluationCode"
+            ]
+        },
+        {
+            "name": "Maintenance and Construction",
+            "altText": "Search for Maintenance and Construction.",
+            "repositories": [
+                "OSADP/Construction-Work-Zone-Mitigation-Tool",
+                "TonyEnglish/Work_Zone_Data_Collection_Toolset",
+                "usdot-jpo-ode/jpo-wzdx",
+                "TFHRCFASTNDElab/CHARISMA"
+            ]
+        },
+        {
+            "name": "Parking Management",
+            "altText": "Search for Parking Management.",
+            "repositories": [
+                "VolpeUSDOT/caco-parking-map",
+                "Datastillery/parking_prediction",
+                "Datastillery/parking_prediction_orchestration",
+                "RegionalPlanAssoc/cruisedetector "
+            ]
+        },
+        {
+            "name": "Public Transportation",
+            "altText": "Search for Public Transportation.",
+            "repositories": [
+                "VolpeUSDOT/gtfs-measures"
+            ]
+        },
+        {
+            "name": "Support",
+            "altText": "Search for Support.",
+            "repositories": [
+                "OSADP/AMS-TCA-Aimsun",
+                "usdot-jpo-ode/asn1_codec",
+                "usdot-jpo-ode/asn1c",
+                "OSADP/CV-DSRC-Message-Parser",
+                "Trihydro/cvrm",
+                "usdot-jpo-ode/jpo-cvdp",
+                "usdot-jpo-ode/jpo-ode-scms-asn",
+                "usdot-jpo-ode/jpo-security",
+                "usdot-jpo-ode/jpo-security-svcs",
+                "usdot-jpo-ode/jpo-tim-builder",
+                "usdot-jpo-ode/kafka-docker",
+                "OSADP/Mobile_D2X_Framework",
+                "OSADP/OpenAWAM",
+                "usdot-its-jpo-code/per-xer-codec",
+                "usdot-jpo-ode/per-xer-codec",
+                "VolpeUSDOT/PLT-Web-Map",
+                "usdot-its-jpo-data-portal/privacy-protection-application",
+                "OSADP/RCVW",
+                "VolpeUSDOT/rec-gov-analysis",
+                "usdot-jpo-ode/scms-asn1",
+                "Trihydro/smdm",
+                "OSADP/TCA",
+                "OSADP/Transportation-Analysis-Project-Costing-Tool",
+                "OSADP/V2I-Hub",
+                "usdot-its-jpo-data-portal/validation-results-slack-lambda",
+                "usdot-jpo-ode/1609dot2-asn"
+            ]
+        },
+        {
+            "name": "Sustainable Travel",
+            "altText": "Search for Sustainable Travel.",
+            "repositories": [
+                "OSADP/Glidepath"
+            ]
+        },
+        {
+            "name": "Traffic Management",
+            "altText": "Search for Traffic Management.",
+            "repositories": [
+                "OSADP/AMS-Aimsun-INFLO",
+                "OSADP/ATSPM",
+                "Datastillery/cve-traffic-light-reporting",
+                "OSADP/DIRECTView-AMS",
+                "OSADP/DTALite-AMS",
+                "OSADP/eTEXAS",
+                "OSADP/ETFOMM",
+                "OSADP/INFLO-AMS",
+                "mmitss/mmitss-az",
+                "OSADP/MMITSS_AZ_FIELD",
+                "OSADP/MMITSS_CA_FIELD",
+                "OSADP/MMITSS_THEA",
+                "OSADP/SPaT",
+                "OSADP/Speed-Harmonization",
+                "OSADP/STOL_Crossing",
+                "STOL-AMS/TO-22-Speed-Harmonization",
+                "OSADP/Traffic-Congestion-State-Predictor-Tool"
+            ]
+        },
+        {
+            "name": "Traveler Information",
+            "altText": "Search for Traveler Information.",
+            "repositories": [
+                "OSADP/D-RIDE-AMS",
+                "scottrmiddleton/FHWA-Relative-Mode-Share-Impacts-under-Different-Shared-Rides-Scenarios",
+                "OSADP/UMinn-SmarTrAC",
+                "mhcorbinllc/Open_CIMT"
+            ]
+        },
+        {
+            "name": "Vehicle Safety",
+            "altText": "Search for Vehicle Safety.",
+            "repositories": [
+                "OSADP/AMS-CACC-Aimsun",
+                "usdot-fhwa-stol/avt_vimba_camera",
+                "OSADP/CACC",
+                "usdot-fhwa-stol/carma-base",
+                "usdot-fhwa-stol/carma-cadillac-srx-2013-controller-driver",
+                "usdot-fhwa-stol/carma-cloud",
+                "usdot-fhwa-stol/carma-cohda-dsrc-driver",
+                "usdot-fhwa-stol/carma-config",
+                "usdot-fhwa-stol/carma-delphi-esr-driver",
+                "usdot-fhwa-stol/carma-delphi-srr2-driver",
+                "usdot-fhwa-stol/carma-freightliner-2012-controller-driver",
+                "usdot-fhwa-stol/carma-msgs",
+                "usdot-fhwa-stol/carma-platform",
+                "usdot-fhwa-stol/carma-ssc-interface-wrapper",
+                "usdot-fhwa-stol/carma-torc-pinpoint-driver",
+                "usdot-fhwa-stol/carma-torc-xgv-controller-driver",
+                "usdot-fhwa-stol/carma-utils",
+                "usdot-fhwa-stol/carma-vehicle-model-framework",
+                "usdot-fhwa-stol/carma-velodyne-lidar-driver",
+                "usdot-fhwa-stol/carma-web-ui",
+                "OSADP/Lane-Change",
+                "usdot-fhwa-stol/novatel_gps_driver",
+                "VolpeUSDOT/SNVA",
+                "STOL-AMS/TO-22-Improved-CACC",
+                "STOL-AMS/TO-22-Lane-Changing",
+                "STOL-AMS/TO-22-Merge-Coordination",
+                "OSADP/VEDM-CAV"
+            ]
+        },
+        {
+            "name": "Weather",
+            "altText": "Search for Weather.",
+            "repositories": [
+                "OSADP/IMRCP",
+                "OSADP/Pikalert-Vehicle-Data-Translator-",
+                "OSADP/Road-Weather-Performance-Management-",
+                "usdot-fhwa-stol/WxDE"
+            ]
+        },
+        {
+            "name": "Other",
+            "altText": "Search for Other.",
+            "repositories": [
+                "OSADP/PortalRepo",
+                "OSADP/C2C-RI"
+            ]
+        }
+    ]
+}
