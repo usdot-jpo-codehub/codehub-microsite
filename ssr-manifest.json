@@ -1,263 +1,211 @@
 {
   "\u0000plugin-vue:export-helper": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "\u0000vite/modulepreload-polyfill": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "\u0000vite/preload-helper": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "index.html": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/@unhead/dom/dist/index.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/@unhead/shared/dist/index.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/@unhead/vue/dist/shared/vue.e6972f28.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/hookable/dist/index.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/pinia/dist/pinia.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/pinia/node_modules/vue-demi/lib/index.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/unhead/dist/index.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/vite-ssg/dist/index.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/vite-ssg/dist/shared/vite-ssg.5912142e.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/vite-ssg/dist/shared/vite-ssg.a009fbf1.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "node_modules/vue-router/dist/vue-router.mjs": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/App.vue": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
-  "src/assets/css/ITS_JPO.css": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/assets/css/main.css": [
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
-    "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
-  ],
-  "src/assets/css/bulma.css": [
     "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
-    "/code/assets/dot_logo-051350a0.png",
-    "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
-  ],
-  "src/assets/css/codehub.css": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
-    "/code/assets/dot_logo-051350a0.png",
-    "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
-    "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
-  ],
-  "src/assets/css/usdot_codehub_template.css": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
-    "/code/assets/dot_logo-051350a0.png",
-    "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
-    "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/assets/icons/ContentIndicator.png": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/assets/icons/ITS_JPO.png": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/assets/icons/dot_logo.png": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/assets/icons/dot_logo2.svg": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/assets/icons/loading.svg": [
-    "/code/assets/SearchView-2e3ffabe.js",
-    "/code/assets/SearchView-02a3b4fb.css",
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
     "/code/assets/loading-5ef061fa.svg"
   ],
   "src/assets/images/ITSJPO_CodeHub_RepositoryRegistration_012820_1.svg": [
-    "/code/assets/RegistrationView-ede735c9.js",
+    "/code/assets/RegistrationView-96c3ee19.js",
     "/code/assets/repository_registration_icon-d38b53dd.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_1-7b60c8c4.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_2-85010ece.svg",
@@ -265,7 +213,7 @@
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_delete-10ccaa2b.svg"
   ],
   "src/assets/images/ITSJPO_CodeHub_RepositoryRegistration_012820_2.svg": [
-    "/code/assets/RegistrationView-ede735c9.js",
+    "/code/assets/RegistrationView-96c3ee19.js",
     "/code/assets/repository_registration_icon-d38b53dd.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_1-7b60c8c4.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_2-85010ece.svg",
@@ -273,7 +221,7 @@
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_delete-10ccaa2b.svg"
   ],
   "src/assets/images/ITSJPO_CodeHub_RepositoryRegistration_012820_3.svg": [
-    "/code/assets/RegistrationView-ede735c9.js",
+    "/code/assets/RegistrationView-96c3ee19.js",
     "/code/assets/repository_registration_icon-d38b53dd.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_1-7b60c8c4.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_2-85010ece.svg",
@@ -281,7 +229,7 @@
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_delete-10ccaa2b.svg"
   ],
   "src/assets/images/ITSJPO_CodeHub_RepositoryRegistration_012820_delete.svg": [
-    "/code/assets/RegistrationView-ede735c9.js",
+    "/code/assets/RegistrationView-96c3ee19.js",
     "/code/assets/repository_registration_icon-d38b53dd.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_1-7b60c8c4.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_2-85010ece.svg",
@@ -289,28 +237,30 @@
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_delete-10ccaa2b.svg"
   ],
   "src/assets/images/additional_Resources_icon.svg": [
-    "/code/assets/ResourcesView-8a20f903.js",
+    "/code/assets/ResourcesView-60030c3b.js",
     "/code/assets/additional_Resources_icon-94af9959.svg"
   ],
   "src/assets/images/faqs_icon.svg": [
-    "/code/assets/FaqsView-9cf8038f.js",
+    "/code/assets/FaqsView-c0e6a5e3.js",
+    "/code/assets/FaqsView-ed6293a4.css",
     "/code/assets/faqs_icon-b726745f.svg"
   ],
   "src/assets/images/its_jpo_30_anniversary_logo.webp": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/assets/images/new_tab_icon.svg": [
-    "/code/assets/new_tab_icon-23b55aad.js",
-    "/code/assets/new_tab_icon-21b00146.svg"
+    "/code/assets/PageBanner-d45fd600.js",
+    "/code/assets/PageBanner-02a10b07.css",
+    "/code/assets/new_tab_icon-21b00146.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/assets/images/repository_registration_icon.svg": [
-    "/code/assets/RegistrationView-ede735c9.js",
+    "/code/assets/RegistrationView-96c3ee19.js",
     "/code/assets/repository_registration_icon-d38b53dd.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_1-7b60c8c4.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_2-85010ece.svg",
@@ -318,114 +268,182 @@
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_delete-10ccaa2b.svg"
   ],
   "src/assets/json/category-icons.json": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/assets/json/language-icons.json": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/AdditionalResource.vue": [
+    "/code/assets/ResourcesView-60030c3b.js",
+    "/code/assets/additional_Resources_icon-94af9959.svg"
   ],
   "src/components/AdditionalResources.vue": [
-    "/code/assets/ResourcesView-8a20f903.js",
+    "/code/assets/ResourcesView-60030c3b.js",
     "/code/assets/additional_Resources_icon-94af9959.svg"
   ],
   "src/components/CategorySearch.vue": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/components/CategorySearch.vue?vue&type=style&index=0&lang.css": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/ExternalLink.vue": [
+    "/code/assets/PageBanner-d45fd600.js",
+    "/code/assets/PageBanner-02a10b07.css",
+    "/code/assets/new_tab_icon-21b00146.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/ExternalLink.vue?vue&type=style&index=0&lang.css": [
+    "/code/assets/PageBanner-d45fd600.js",
+    "/code/assets/PageBanner-02a10b07.css",
+    "/code/assets/new_tab_icon-21b00146.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/FAQ.vue": [
+    "/code/assets/FaqsView-c0e6a5e3.js",
+    "/code/assets/FaqsView-ed6293a4.css",
+    "/code/assets/faqs_icon-b726745f.svg"
   ],
   "src/components/Faqs.vue": [
-    "/code/assets/FaqsView-9cf8038f.js",
+    "/code/assets/FaqsView-c0e6a5e3.js",
+    "/code/assets/FaqsView-ed6293a4.css",
+    "/code/assets/faqs_icon-b726745f.svg"
+  ],
+  "src/components/Faqs.vue?vue&type=style&index=0&scoped=d8752b1b&lang.css": [
+    "/code/assets/FaqsView-c0e6a5e3.js",
+    "/code/assets/FaqsView-ed6293a4.css",
     "/code/assets/faqs_icon-b726745f.svg"
   ],
   "src/components/FeaturedProjects.vue": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/components/FeaturedProjects.vue?vue&type=style&index=0&lang.css": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
-  "src/components/FooterDOT.vue": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/FooterDOT.vue": [
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
-  "src/components/HeaderDOT.vue": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/FooterDOT.vue?vue&type=style&index=0&lang.css": [
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
-  "src/components/HeaderDOT.vue?vue&type=style&index=0&lang.css": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/HeaderDOT.vue": [
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
-  "src/components/Navigation.vue": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/HeaderDOT.vue?vue&type=style&index=0&lang.css": [
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
-  "src/components/Navigation.vue?vue&type=style&index=0&lang.css": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+  "src/components/Layout/Navigation.vue": [
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/Layout/Navigation.vue?vue&type=style&index=0&lang.css": [
+    "/code/assets/dot_logo-051350a0.png",
+    "/code/assets/dot_logo2-f50188c5.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
+    "/code/assets/times-circle-b17e09bf.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/Layout/PageBanner.vue": [
+    "/code/assets/PageBanner-d45fd600.js",
+    "/code/assets/PageBanner-02a10b07.css",
+    "/code/assets/new_tab_icon-21b00146.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/Layout/PageBanner.vue?vue&type=style&index=0&lang.css": [
+    "/code/assets/PageBanner-d45fd600.js",
+    "/code/assets/PageBanner-02a10b07.css",
+    "/code/assets/new_tab_icon-21b00146.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/LoadingCategories.vue": [
+    "/code/assets/dot_logo-051350a0.png",
+    "/code/assets/dot_logo2-f50188c5.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
+    "/code/assets/times-circle-b17e09bf.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/LoadingCategories.vue?vue&type=style&index=0&scoped=2a590d7e&lang.css": [
+    "/code/assets/dot_logo-051350a0.png",
+    "/code/assets/dot_logo2-f50188c5.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
+    "/code/assets/times-circle-b17e09bf.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/LoadingProjects.vue": [
+    "/code/assets/dot_logo-051350a0.png",
+    "/code/assets/dot_logo2-f50188c5.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
+    "/code/assets/times-circle-b17e09bf.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/LoadingProjects.vue?vue&type=style&index=0&scoped=ff49ae7d&lang.css": [
+    "/code/assets/dot_logo-051350a0.png",
+    "/code/assets/dot_logo2-f50188c5.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
+    "/code/assets/times-circle-b17e09bf.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/components/Registration.vue": [
-    "/code/assets/RegistrationView-ede735c9.js",
+    "/code/assets/RegistrationView-96c3ee19.js",
     "/code/assets/repository_registration_icon-d38b53dd.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_1-7b60c8c4.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_2-85010ece.svg",
@@ -433,84 +451,126 @@
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_delete-10ccaa2b.svg"
   ],
   "src/components/SearchMain.vue": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
-    "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
-  ],
-  "src/components/SearchMain.vue?vue&type=style&index=0&lang.css": [
     "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
+    "/code/assets/times-circle-b17e09bf.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/components/SearchMain.vue?vue&type=style&index=0&scoped=66917d75&lang.css": [
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
-  "src/components/SearchResults.vue": [
-    "/code/assets/SearchView-2e3ffabe.js",
-    "/code/assets/SearchView-02a3b4fb.css",
+  "src/components/SearchResults/SearchResultDescription.vue": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
     "/code/assets/loading-5ef061fa.svg"
   ],
-  "src/components/SearchResults.vue?vue&type=style&index=0&lang.css": [
-    "/code/assets/SearchView-2e3ffabe.js",
-    "/code/assets/SearchView-02a3b4fb.css",
+  "src/components/SearchResults/SearchResultDescription.vue?vue&type=style&index=0&lang.css": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
+    "/code/assets/loading-5ef061fa.svg"
+  ],
+  "src/components/SearchResults/SearchResultForkView.vue": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
+    "/code/assets/loading-5ef061fa.svg"
+  ],
+  "src/components/SearchResults/SearchResultForkView.vue?vue&type=style&index=0&lang.css": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
+    "/code/assets/loading-5ef061fa.svg"
+  ],
+  "src/components/SearchResults/SearchResultItem.vue": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
+    "/code/assets/loading-5ef061fa.svg"
+  ],
+  "src/components/SearchResults/SearchResultItem.vue?vue&type=style&index=0&lang.css": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
+    "/code/assets/loading-5ef061fa.svg"
+  ],
+  "src/components/SearchResults/SearchResults.vue": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
+    "/code/assets/loading-5ef061fa.svg"
+  ],
+  "src/components/SearchResults/SearchResults.vue?vue&type=style&index=0&lang.css": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
+    "/code/assets/loading-5ef061fa.svg"
+  ],
+  "src/components/SearchResults/SearchResultsFilter.vue": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
+    "/code/assets/loading-5ef061fa.svg"
+  ],
+  "src/components/SearchResults/SearchResultsFilter.vue?vue&type=style&index=0&lang.css": [
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
     "/code/assets/loading-5ef061fa.svg"
   ],
   "src/constants.js": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/main.js": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/router/index.js": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/stores/github.js": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
+  ],
+  "src/utils.js": [
+    "/code/assets/dot_logo-051350a0.png",
+    "/code/assets/dot_logo2-f50188c5.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
+    "/code/assets/times-circle-b17e09bf.svg",
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/views/FaqsView.vue": [
-    "/code/assets/FaqsView-9cf8038f.js",
+    "/code/assets/FaqsView-c0e6a5e3.js",
+    "/code/assets/FaqsView-ed6293a4.css",
     "/code/assets/faqs_icon-b726745f.svg"
   ],
   "src/views/HomeView.vue": [
-    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
     "/code/assets/dot_logo-051350a0.png",
     "/code/assets/dot_logo2-f50188c5.svg",
-    "/code/assets/Header30Years-272087fd.webp",
-    "/code/assets/20_opacity-8f9d0f58.svg",
+    "/code/assets/its_jpo_30_anniversary_logo-50006abb.webp",
+    "/code/assets/Header-b3e904f9.webp",
     "/code/assets/times-circle-b17e09bf.svg",
-    "/code/assets/Header-b3e904f9.webp"
+    "/code/assets/20_opacity-8f9d0f58.svg"
   ],
   "src/views/RegistrationView.vue": [
-    "/code/assets/RegistrationView-ede735c9.js",
+    "/code/assets/RegistrationView-96c3ee19.js",
     "/code/assets/repository_registration_icon-d38b53dd.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_1-7b60c8c4.svg",
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_2-85010ece.svg",
@@ -518,12 +578,12 @@
     "/code/assets/ITSJPO_CodeHub_RepositoryRegistration_012820_delete-10ccaa2b.svg"
   ],
   "src/views/ResourcesView.vue": [
-    "/code/assets/ResourcesView-8a20f903.js",
+    "/code/assets/ResourcesView-60030c3b.js",
     "/code/assets/additional_Resources_icon-94af9959.svg"
   ],
   "src/views/SearchView.vue": [
-    "/code/assets/SearchView-2e3ffabe.js",
-    "/code/assets/SearchView-02a3b4fb.css",
+    "/code/assets/SearchView-f3e86287.js",
+    "/code/assets/SearchView-f82f3f10.css",
     "/code/assets/loading-5ef061fa.svg"
   ]
 }
