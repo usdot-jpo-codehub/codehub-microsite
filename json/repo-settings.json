@@ -44,6 +44,11 @@
             "name": "usdot-jpo-ode",
             "repositories": [ "*" ],
             "type": "organization"
+        },
+        {
+            "name": "ITSJPO-TRIMS",
+            "repositories": ["R25-IncidentDetection", "R29-MobilityTrafficCounts"],
+            "type": "organization"
         }
     ],
     "users": [
@@ -59,7 +64,7 @@
         },
         {
             "name": "usdot-jpo-codehub",
-            "repositories": [ "Data-Valuation-Index", "codehub-microsite", "FHWA-AV-Scenarios", "codehub-admin-ui", "codehub-ui", "codehub-ingest", "codehub-repo-aws-credential-check", "codehub-standalone_repository-list-generator", "codehub-standalone", "codehub-readme-template", "codehub-ecs-cfn", "codehub-webapi", "codehub-search", "codehub-admin-api", "codehub-cloudformation", "codehub-ui-image-server", "codehub-data-manager", "codehub-api", "cdh-apicc", "codehub-utilities", "MMITSS_CA_FIELD", "codehub-sonarqube", "codehub-terraform" ],
+            "repositories": [ "Data-Capability-Maturity-Model", "Data-Valuation-Index", "codehub-microsite", "FHWA-AV-Scenarios", "codehub-admin-ui", "codehub-ui", "codehub-ingest", "codehub-repo-aws-credential-check", "codehub-standalone_repository-list-generator", "codehub-standalone", "codehub-readme-template", "codehub-ecs-cfn", "codehub-webapi", "codehub-search", "codehub-admin-api", "codehub-cloudformation", "codehub-ui-image-server", "codehub-data-manager", "codehub-api", "cdh-apicc", "codehub-utilities", "MMITSS_CA_FIELD", "codehub-sonarqube", "codehub-terraform" ],
             "type": "user"
         },
         {
