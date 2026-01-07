@@ -16,9 +16,9 @@ For a real-world example of an ITS JPO-funded project using this template, see t
 * Project Description
 * Prerequisites
 * Usage
-	* Building
-	* Testing
-	* Execution
+  * Building
+  * Testing
+  * Execution
 * Additional Notes
 * Version History and Retention
 * License
@@ -53,7 +53,7 @@ Requires:
 ## Building
 *Specifics for how to build/compile this code should be outlined here. If your code does not require any type of build/compilation, specify that here.*
 
-Example: 
+Example:
 
 Step 1: Build Docker image:
 ```
@@ -86,7 +86,7 @@ python /scripts/myScript.py
 
 Deploy to Lambda:
 ```
-aws lambda create-function --function-name my-function ... 
+aws lambda create-function --function-name my-function ...
 ```
 
 # Additional Notes
@@ -118,7 +118,7 @@ Example:
 
 Example:
 
-This project is licensed under the Creative Commons 1.0 Universal (CC0 1.0) License - see the [License.MD](https://github.com/usdot-jpo-codehub/codehub-readme-template/blob/master/LICENSE) for more details. 
+This project is licensed under the Creative Commons 1.0 Universal (CC0 1.0) License - see the [License.MD](https://github.com/usdot-jpo-codehub/codehub-readme-template/blob/master/LICENSE) for more details.
 
 # Contributions
 *Create a file named "CONTRIBUTING.md" explaining how users can interact with this project's repository, your expectations for their conduct, and how contributions by users will be released (e.g. whether they will be released under the same license and whether those contributors waive their rights accordingly). See [CONTRIBUTING.md](https://github.com/usdot-jpo-codehub/codehub-readme-template/blob/master/Contributing.MD) for an example of this file.*
